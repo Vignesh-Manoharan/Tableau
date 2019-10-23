@@ -1,0 +1,4 @@
+import pandas as pd
+import pyreadstat as pr
+df, meta = pr.read_sav(r"D:\New Data.sav")
+df, meta
